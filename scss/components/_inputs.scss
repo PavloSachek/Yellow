@@ -1,0 +1,35 @@
+.input-email {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 574px;
+    height: 88px;
+    // position: absolute;
+    // top: 400px;
+    // left: 650px;
+    margin-bottom: 160px;
+   
+        ::placeholder {
+        color: rgb(122, 122, 122);
+        font-size: 22px;
+
+    }
+    &__label {}
+
+    &__box {
+        margin: 0 auto;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        border:none;
+        border-radius: 10px;
+       padding-left: 16px;
+        background-color: white;
+        font-size: 22px;
+        
+    }
+
+}
+

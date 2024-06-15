@@ -1,0 +1,53 @@
+.button-shop-now {
+    color: #ffffff;
+    background-color: var(--color-prim-dark);
+    border: 1px solid var(--color-prim-dark);
+    border-radius: 7px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 26px 51px;
+    transition: background-color 0.5s;
+
+
+        &--community {
+                position: absolute;
+                padding: 10px 46px;
+                right: 8px;
+                bottom: 8px;
+                top: 8px;
+                // z-index: 2;
+            }
+}
+
+
+.button-shop-now:hover {
+    background-color: var(--color-prim-mid);
+    /* color: var(--color-prim-dark); */
+}
+
+.button-sign-up.main-nav-link {
+    display: flex;
+    flex-shrink: 0;
+    color: #ffffff;
+    background-color: var(--color-prim-dark);
+    border: 1px solid var(--color-prim-dark);
+    border-radius: 7px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 18px 40px;
+    flex-grow: 0;
+    @media screen and (max-width: 1400px) {
+            font-size: 22px;
+            
+        }
+}
+
+
+.appmarkets {
+    padding-top: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    gap: 20px;
+}

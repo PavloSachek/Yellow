@@ -1,0 +1,34 @@
+.arrivals-section {
+    // padding-top: 34px;
+&__item {
+    position: relative;
+}
+&__icons {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    fill: var(--color-prim-mid);
+}
+&__list {
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    flex-wrap: wrap;
+}
+&__item h5 {
+    line-height: 50px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+}
+&__item img{
+    padding-bottom: 32px;
+}
+&__paragraf {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 500;
+}
+&__title{ 
+    padding-bottom: 100px;
+}
+}

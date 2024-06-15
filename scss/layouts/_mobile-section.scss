@@ -1,0 +1,50 @@
+.mobile-app-section{
+  
+&__container {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+@media screen and (max-width: 1200px) {
+gap: 0;
+       justify-content: center;
+
+    }
+
+}
+&__content {
+    
+    padding-left: 220px;
+    text-align: left;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+&__box {
+    border-radius: 32px;
+    box-sizing: border-box;
+    border: solid 20px #bac8d3;
+    box-shadow: 0px 0px 60px 0px #00000040;
+    border: -28px solid #c2c8da;
+    border-radius: 35px;
+}
+&__picture {
+    text-align: center;
+    flex-basis: 50%;
+    flex-grow: 1;
+    @media screen and (max-width: 1200px) {
+    
+            display: none;
+    
+        }
+}
+&__text H3{
+
+    width: 100%;
+    max-width: 500px;
+}
+&__text p {
+    font-size: 22px;
+    width: 100%;
+        max-width: 460px;
+    letter-spacing: -0.04em;
+}
+}

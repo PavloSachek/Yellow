@@ -1,0 +1,43 @@
+/* community section */
+
+
+.community-section {
+    background-color: var(--color-brnd-mdl);
+    width: 100%;
+    max-width: 2050px;
+    margin: 0 auto;
+
+    &__container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                // align-items: center;
+                //     text-align: center;
+                position: relative;
+                
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 140px;
+        color: #ffffff;
+        text-align: center;
+        /* flex-basis: 100%; */
+    }
+    &__text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            padding-top: 32px;
+        padding-bottom: 48px;
+        color: #ffffff;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 400;
+    }
+}
+
+
+
+

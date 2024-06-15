@@ -1,0 +1,127 @@
+.footer-section {
+    width: 100%;
+    max-width: 2050px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+.footer-logo-part,
+.footer-info-part {
+    flex-basis: 50%;
+}
+
+.footer-logo-part p {
+    padding-bottom: 32px;
+    width: 460px;
+}
+
+.footer-info-part h6 {
+    padding-bottom: 32px;
+}
+
+.footer-info-list {
+    display: flex;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.footer-info-items {
+    flex-basis: calc(96% / 3);
+}
+
+.footer-last li {
+    padding-bottom: 32px;
+}
+
+.footer-last li:last-child {
+    padding-bottom: 0px;
+}
+
+.footer-logo-text-link {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer-logo-text {
+    color: var(--color-sec-mid);
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.footer-logo-div {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.footer-info-part h6 {
+    color: var(--color-sec-mid);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.footer-links a {
+    color: var(--color-prim-mid);
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.footer-logo-div {
+    padding-bottom: 32px;
+}
+
+.footer-icons-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-icons {
+    fill: var(--color-prim-dark);
+}
+
+.footer-icon-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    background-color: var(--color-brnd-mdl);
+    border-radius: 15px;
+}
+
+.footer-icon-instagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    background-color: var(--color-brnd-mdl);
+    border-radius: 15px;
+}
+
+.footer-icon-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    background-color: var(--color-brnd-mdl);
+    border-radius: 15px;
+}
+
+.footer-icon-in {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 52px;
+    background-color: var(--color-brnd-mdl);
+    border-radius: 15px;
+}

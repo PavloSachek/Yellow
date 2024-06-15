@@ -1,0 +1,152 @@
+.offers-section{
+&__big {
+        margin-bottom: 188px;
+        width: 100%;
+        max-width: 2050px;
+        margin: 0 auto;
+        background: linear-gradient(1.32deg,
+                #e0c340 0.13%,
+                #dfc23e 3.97%,
+                #e1c441 7.2%,
+                #e3c743 10.13%,
+                #e4c542 12.98%,
+                #e6c744 15.99%,
+                #e7c845 19.52%,
+                #e5c643 23.96%,
+                #e6c945 30.43%,
+                #e3c743 36.49%,
+                #e9ca48 42.49%,
+                #edce49 49.35%,
+                #f0d44c 55.42%,
+                #f4d84f 61.43%,
+                #f6da52 65.74%,
+                #f7db53 72.23%,
+                #f9dd55 77.43%,
+                #f9df56 83.84%,
+                #fae157 91.52%,
+                #f9df56 97.87%);
+
+
+    }
+&__container {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: 84px;
+    align-items: start;
+}
+&__image-container {
+    display: flex;
+    
+}
+&__paragraf {
+    font-weight: 500;
+   
+    
+      
+}
+&__terms {
+    font-weight: 400;
+}
+&__button {
+    padding-top: 50px;
+}
+&__image {
+    // width: 100%;
+    // height: 100%;
+    // max-height: 968px;
+    // max-width: 992px;
+    // flex-basis: 100%;
+    @media screen and (max-width: 1700px) {
+    
+            display: none;
+        }
+}
+  
+&__text {
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    @media screen and (max-width: 1700px) {
+    
+            padding: 100px 200px;
+        }
+
+    // align-items:center;
+    // text-align: left;
+    // width: 100%;
+    // height: 100%;
+    // max-height: 684px;
+    // max-width: 666px;
+}
+&__span {
+    padding-top: 36px;
+}
+& p{
+    font-size: 36px;
+    color: var(--color-prim-dark);
+}
+& span {
+    font-weight: 700;
+}
+}
+
+
+
+
+
+
+// .offers-icons {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     scale: 2;
+//     rotate: 27deg;
+//     fill: white;
+//     opacity: 0.5;
+//     left: 136px;
+//     top: 151px;
+// }
+
+// .offers-icons.two {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     scale: 2;
+//     rotate: 27deg;
+//     fill: white;
+//     opacity: 0.5;
+//     left: 766px;
+//     top: 84px;
+// }
+
+// .offers-icons.three {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     scale: 2;
+//     rotate: 27deg;
+//     fill: white;
+//     opacity: 0.5;
+//     left: 184px;
+//     top: 490px;
+// }
+
+
+
+// .offers-icons.four {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     scale: 2;
+//     rotate: 27deg;
+//     fill: white;
+//     opacity: 0.4;
+//     left: 816px;
+//     top: 640px;
+// }
+
+
+
+
+
